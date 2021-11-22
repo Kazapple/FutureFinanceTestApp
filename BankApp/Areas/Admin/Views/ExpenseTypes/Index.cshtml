@@ -1,0 +1,46 @@
+﻿@using BLL;
+@model IEnumerable<BLL.ExpenseTypeDM>
+
+@{ 
+    ViewData["Title"] = "Index";
+}
+
+<br/><br />
+<div class="row">
+    <div class="col-6">
+        <h2 class="text-info">Expense Type List</h2>
+    </div>
+    <div class="col-6 text-right">
+        <a asp-action="Create" class="btn btn-info">&nbsp; New Expense Type</a>
+    </div>
+</div>
+<br />
+<div>
+    <table class="table table-striped border">
+        <tr class="table-info">
+            <th>
+                @Html.DisplayNameFor(c=>c.ExpenseType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(c => c.Balance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(c => c.Expenses)
+            </th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.ExpenseType</td>
+                    <td>@item.Balance</td>
+                    <td>@item.Expenses</td>
+                    <td>
+                        <partial name="_BtnPartial" model="@item.Id">
+                    </td>
+                </tr>
+            }
+    </table>
+</div>

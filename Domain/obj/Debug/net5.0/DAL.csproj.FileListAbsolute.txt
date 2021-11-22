@@ -1,0 +1,15 @@
+C:\Users\stenh\source\repos\BankAppSol\Domain\obj\Debug\net5.0\DAL.csproj.AssemblyReference.cache
+C:\Users\stenh\source\repos\BankAppSol\Domain\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stenh\source\repos\BankAppSol\Domain\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
+C:\Users\stenh\source\repos\BankAppSol\Domain\obj\Debug\net5.0\DAL.AssemblyInfo.cs
+C:\Users\stenh\source\repos\BankAppSol\Domain\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\stenh\source\repos\BankAppSol\Domain\bin\Debug\net5.0\DAL.deps.json
+C:\Users\stenh\source\repos\BankAppSol\Domain\bin\Debug\net5.0\DAL.dll
+C:\Users\stenh\source\repos\BankAppSol\Domain\bin\Debug\net5.0\ref\DAL.dll
+C:\Users\stenh\source\repos\BankAppSol\Domain\bin\Debug\net5.0\DAL.pdb
+C:\Users\stenh\source\repos\BankAppSol\Domain\bin\Debug\net5.0\BLL.dll
+C:\Users\stenh\source\repos\BankAppSol\Domain\bin\Debug\net5.0\BLL.pdb
+C:\Users\stenh\source\repos\BankAppSol\Domain\obj\Debug\net5.0\DAL.dll
+C:\Users\stenh\source\repos\BankAppSol\Domain\obj\Debug\net5.0\ref\DAL.dll
+C:\Users\stenh\source\repos\BankAppSol\Domain\obj\Debug\net5.0\DAL.pdb
+C:\Users\stenh\source\repos\BankAppSol\Domain\obj\Debug\net5.0\DAL.csproj.CopyComplete
