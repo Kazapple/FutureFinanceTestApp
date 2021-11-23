@@ -5,6 +5,7 @@ namespace BLL
 {
     public class ExpenseTypeDM
     {
+        public decimal i;
 
         [Required]
         [Display(Name = "Expense Category")]
@@ -28,6 +29,7 @@ namespace BLL
         {
             Balance -= Expenses;
             TotalExpenses += Expenses;
+            TotalExpenses += TotalExpenses;
         }
     }
 }
