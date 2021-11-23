@@ -63,7 +63,7 @@ namespace BankApp
             {
                 endpoints.MapControllerRoute(
                   name: "areas",
-                  pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}"
+                  pattern: "{area=Admin}/{controller=ExpenseTypes}/{action=Index}/{id?}"
                 );
             });
         }

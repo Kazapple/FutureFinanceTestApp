@@ -172,3 +172,4 @@ C:\Users\stenh\source\repos\BankAppSol\BankApp\bin\Debug\net5.0\BLL.pdb
 C:\Users\stenh\source\repos\BankAppSol\BankApp\bin\Debug\net5.0\DAL.dll
 C:\Users\stenh\source\repos\BankAppSol\BankApp\bin\Debug\net5.0\DAL.pdb
 C:\Users\stenh\source\repos\BankAppSol\BankApp\obj\Debug\net5.0\Razor\Areas\Admin\Views\ExpenseTypes\Calc.cshtml.g.cs
+C:\Users\stenh\source\repos\BankAppSol\BankApp\obj\Debug\net5.0\Razor\Areas\Admin\Views\Overview\Index.cshtml.g.cs
