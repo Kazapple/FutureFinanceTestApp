@@ -1,5 +1,4 @@
 ﻿using DAL.Data;
-using BankApp.Models;
 using BLL;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -62,11 +61,11 @@ namespace BankApp.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
+                expenseTypes.MoneySum();
                 _db.Update(expenseTypes);
                 await _db.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-
             return View();
         }
 

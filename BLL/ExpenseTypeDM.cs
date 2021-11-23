@@ -15,6 +15,8 @@ namespace BLL
         [Display(Name = "Expenses")]
         public decimal Expenses { get; set; }
 
+        [Required]
+        [Display(Name = "Total Expenses")]
         public decimal TotalExpenses { get; set; }
 
         [Required]

@@ -25,7 +25,7 @@
                 @Html.DisplayNameFor(c => c.Balance)
             </th>
             <th>
-                @Html.DisplayNameFor(c => c.Expenses)
+                @Html.DisplayNameFor(c => c.TotalExpenses)
             </th>
             <th></th>
             <th></th>
@@ -36,7 +36,7 @@
                 <tr>
                     <td>@item.ExpenseType</td>
                     <td>@item.Balance</td>
-                    <td>@item.Expenses</td>
+                    <td>@item.TotalExpenses</td>
                     <td>
                         <partial name="_BtnPartial" model="@item.Id">
                     </td>
