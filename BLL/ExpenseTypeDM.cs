@@ -29,7 +29,6 @@ namespace BLL
         {
             Balance -= Expenses;
             TotalExpenses += Expenses;
-            TotalExpenses += TotalExpenses;
         }
 
         public void feedbackMethod()
