@@ -5,7 +5,7 @@ namespace BLL
 {
     public class ExpenseTypeDM
     {
-        public decimal i;
+        public string feedbackMessage;
 
         [Required]
         [Display(Name = "Expense Category")]
@@ -30,6 +30,20 @@ namespace BLL
             Balance -= Expenses;
             TotalExpenses += Expenses;
             TotalExpenses += TotalExpenses;
+        }
+
+        public void feedbackMethod()
+        {
+            if (Balance <= 100)
+            {
+                feedbackMessage = "you are poor";
+            } else if (Balance >= 500)
+            {
+                feedbackMessage = "you are rich";
+            } else
+            {
+                feedbackMessage = "you're doin fine";
+            }
         }
     }
 }

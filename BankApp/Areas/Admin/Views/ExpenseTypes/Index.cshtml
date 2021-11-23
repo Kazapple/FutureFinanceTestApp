@@ -1,11 +1,12 @@
 ﻿@using BLL;
 @model IEnumerable<BLL.ExpenseTypeDM>
 
-@{ 
+@{
     ViewData["Title"] = "Index";
 }
 
-<br/><br />
+<br />
+<br />
 <div class="row">
     <div class="col-6">
         <h2 class="text-info">Expense Type List</h2>
@@ -19,7 +20,7 @@
     <table class="table table-striped border">
         <tr class="table-info">
             <th>
-                @Html.DisplayNameFor(c=>c.ExpenseType)
+                @Html.DisplayNameFor(c => c.ExpenseType)
             </th>
             <th>
                 @Html.DisplayNameFor(c => c.Balance)
@@ -31,16 +32,16 @@
             <th></th>
             <th></th>
         </tr>
-        @foreach(var item in Model)
-            {
-                <tr>
-                    <td>@item.ExpenseType</td>
-                    <td>@item.Balance</td>
-                    <td>@item.TotalExpenses</td>
-                    <td>
-                        <partial name="_BtnPartial" model="@item.Id">
-                    </td>
-                </tr>
-            }
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ExpenseType</td>
+                <td>@item.Balance</td>
+                <td>@item.TotalExpenses</td>
+                <td>
+                    <partial name="_BtnPartial" model="@item.Id">
+                </td>
+            </tr>
+        }
     </table>
 </div>
