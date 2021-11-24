@@ -1,3 +1,5 @@
+using BankApp.Areas.Admin.Controllers;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Tests
@@ -6,8 +8,16 @@ namespace Tests
     public class CRUDTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Create()
         {
+            // Arrange
+            
+
+            // Act
+            
+
+            // Assert
+            
         }
     }
 }
