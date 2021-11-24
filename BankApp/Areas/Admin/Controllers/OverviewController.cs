@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BLL;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace BankApp.Areas.Admin.Controllers
     [Area("Admin")]
     public class OverviewController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(ExpenseTypeDM expenseTypes)
         {
             return View();
         }

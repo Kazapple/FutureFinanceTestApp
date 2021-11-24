@@ -6,6 +6,13 @@
 <br />
 
 <h2 class="text-info">Edit Expense Type</h2>
+
+<style>
+    .div-1 {
+        background-color: #DCDCDC;
+    }
+</style>
+
 <form asp-action="Edit" method="post">
     <div class="p-4 rounded border">
         <input type="hidden" asp-for="Id" />
@@ -15,7 +22,7 @@
                 <label asp-for="ExpenseType"></label>
             </div>
             <div class="col-5">
-                <input asp-for="ExpenseType" readonly="readonly" class="from-control" />
+                <input asp-for="ExpenseType" readonly="readonly" class="from-control, div-1" />
             </div>
             <span asp-validation-for="ExpenseType" class="text-danger"></span>
         </div>
@@ -25,7 +32,7 @@
                 <label asp-for="Balance"></label>
             </div>
             <div class="col-5">
-                <input asp-for="Balance" readonly="readonly" class="from-control" />
+                <input asp-for="Balance" readonly="readonly" class="from-control, div-1" />
             </div>
             <span asp-validation-for="Balance" class="text-danger"></span>
         </div>
@@ -35,7 +42,7 @@
                 <label asp-for="TotalExpenses"></label>
             </div>
             <div class="col-5">
-                <input asp-for="TotalExpenses" readonly="readonly" class="from-control" />
+                <input asp-for="TotalExpenses" readonly="readonly" class="from-control, div-1" />
             </div>
             <span asp-validation-for="TotalExpenses" class="text-danger"></span>
         </div>

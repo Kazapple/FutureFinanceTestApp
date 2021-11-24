@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace BLL
 {
-    public class ExpenseTypeDM
+    public class ExpenseTypeDMTest
     {
         [Required]
         [Display(Name = "Expense Category")]
